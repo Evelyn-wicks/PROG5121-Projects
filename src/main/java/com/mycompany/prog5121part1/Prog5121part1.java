@@ -71,7 +71,7 @@ system.out.println(Login.registerUser());
 
 //Login verification
 system.out.println(login.returnLoginStatus("Eve_1",Ev&&ely@nn99!"."Evelyn.Wicks" );
-                                           }                                          
+  }                                          
                                            
 
     
