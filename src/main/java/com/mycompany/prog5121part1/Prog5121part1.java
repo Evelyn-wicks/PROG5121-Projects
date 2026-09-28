@@ -37,6 +37,7 @@ public class Prog5121part1 {
         public boolean checkCellPhoneNumber(){
          return cellPhoneNumber.matches("^\\+27\\d{9}$");
         }
+        
         //Registration text messaging
         public String registerUser(){
             if (!checkUsername()){
@@ -54,6 +55,7 @@ public class Prog5121part1 {
         public boolean loginUser(String inputUsername,String inputPassword){
             return this.username.equals(inputUsername) && this.password.equals(inputPassword);
         }
+        
         // login status messaging
         public String returnLoginStatus(String inputUsername, String inputPassword, String firstname, String lastname){
             if (loginUser(inputUsername, inputPassword)){
