@@ -61,7 +61,20 @@ public class Prog5121part1 {
                 return "Username or password incorrect, please try again.";
             }
         }
-    }}
+    }
+   piblic static void main(String[] args){
+    //create a testing user
+    Login Login =new Login("Eve_1","Ev&&ely@nn99!", +27834558976");
+            
+//registration validation
+system.out.println(Login.registerUser());
+
+//Login verification
+system.out.println(login.returnLoginStatus("Eve_1",Ev&&ely@nn99!"."Evelyn.Wicks" );
+        }
+
+    
+
       
         
     
