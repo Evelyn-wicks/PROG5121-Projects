@@ -17,8 +17,8 @@ public class Prog5121part1 {
         
         public Login(String username,String password, String cellPhoneNumber){ 
           this.username= username;
-            this.password=password;
-            this.cellPhoneNumber= cellPhoneNumber;  
+            this.password = password;
+            this.cellPhoneNumber = cellPhoneNumber;  
         }
              //usernsme check
         public boolean checkUserName(){
