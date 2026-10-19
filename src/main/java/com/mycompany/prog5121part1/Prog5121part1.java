@@ -87,7 +87,7 @@ public Login(String username, String password, String cellPhoneNumber)
    this.cellPhoneNumber = cellPhoneNumber;
    }
    public boolean checkUserName() {
-       return usrname.contains("_")and username. length() <= 5;
+       return username.contains("_")and username. length() <= 5;
    }
    public boolean checkPasswordComplexity() {
        return password.matches(".*[A-Z].*")&&
